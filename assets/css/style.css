@@ -1,0 +1,43 @@
+.header {
+    background-color: #23305C;
+    color: white; 
+    text-align: center; 
+    padding: 50px; 
+}
+
+input[type=text] {
+    width: 130px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png') !important;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+.section-middle {
+    padding: 20px; 
+    margin: 30px 50px 30px 50px; 
+    border: 2px solid grey;
+    border-radius: 12px;
+}
+
+.section-top {
+    margin: 0px 50px 30px 50px; 
+}
+
+.line-1 {
+    padding: 20px; 
+}
+
+.row {
+    padding: 10px 0px 10px 0px; 
+}
